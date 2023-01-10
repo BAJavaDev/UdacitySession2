@@ -1,5 +1,6 @@
 package collections;
 
+// only allowed one comparable
 public class Person implements Comparable<Person> {
     private String name;
     private Integer height;

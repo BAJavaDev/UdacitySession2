@@ -13,8 +13,16 @@ public class Sets {
         set.add("apple");
         set.add("banana");
 
+        // iterate over set
         for (String fruit: set){
             System.out.println(fruit);
+        }
+
+        // direct lookups (O(1))
+        if(set.contains("apple")) {
+            System.out.println("contains apple");
+        } else{
+            System.out.println("does not contain apple");
         }
 
     }

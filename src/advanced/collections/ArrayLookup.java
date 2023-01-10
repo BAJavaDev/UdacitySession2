@@ -13,7 +13,7 @@ public class ArrayLookup {
         userArr.add(new User("udacity","taught", "8988875"));
 
         for(User user: userArr){
-            if (user.getUsername() == "balleyn"){
+            if (user.getUsername().equals("balleyn")){
                 System.out.println(user.getPassword());
             }
         }

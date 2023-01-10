@@ -10,6 +10,7 @@ public class MapsLookup {
         usernameToUserMap.put("bigdev", new User("bigdev","encrypted", "89787875"));
         usernameToUserMap.put("udacity", new User("udacity","taught", "8988875"));
 
+        // Direct access to keys (O(1))
         User user = usernameToUserMap.get("balleyn");
         System.out.println(user.getPassword());
     }

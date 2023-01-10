@@ -10,6 +10,12 @@ public class Maps {
         fruitMap.put("Oranges", 7);
         fruitMap.put("Grapes", 100);
 
+        if(fruitMap.containsKey("Corn")) {
+            System.out.println("It's a fruit");
+        } else {
+            System.out.println("It is not a fruit");
+        }
+
         System.out.println("Keys: ");
         for (String key: fruitMap.keySet()){
             System.out.println(key);

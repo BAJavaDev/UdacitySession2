@@ -21,7 +21,7 @@ public class Sorting {
         displayList(persons);
 
         // Sort using external Comparator class
-        Collections.sort(persons,new PersonNameCompare());
+        Collections.sort(persons, new PersonNameCompare());
         System.out.println("\nSorted by name");
         displayList(persons);
 
