@@ -26,5 +26,8 @@ public class Looping {
         for (String shape: shapes) {
             System.out.println(shape.toUpperCase());
         }
+
+        //collections can only hold reference types
+       //final List<int> persons = new ArrayList<>();
     }
 }
