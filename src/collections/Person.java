@@ -12,9 +12,14 @@ public class Person implements Comparable<Person> {
         this.age = age;
     }
 
+   /* The method should return 0 if one integer is equal to the other integer.
+   A value less than 0 is returned if this integer is less than the integer passed in
+   and a value greater than 0 if this integer is greater than the integer passed in.
+   **/
     @Override
     public int compareTo(Person o) {
-        return this.age.compareTo(o.getAge());
+       // return this.age-o.getAge();
+        return this.age.compareTo(o.age);
     }
 
     public String getName() {

@@ -24,7 +24,6 @@ public class Sorting {
         Collections.sort(persons, new PersonNameCompare());
         System.out.println("\nSorted by name");
         displayList(persons);
-
     }
 
     private static void displayList(List<Person> persons) {
